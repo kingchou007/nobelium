@@ -1,7 +1,9 @@
 {
   "NAV": {
     "INDEX": "Blog",
-    "SEARCH": "Search"
+    "RSS": "RSS",
+    "SEARCH": "Search",
+    "ABOUT": "About"
   },
   "PAGINATION": {
     "PREV": "Prev",
