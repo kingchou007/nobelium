@@ -71,6 +71,7 @@ Demo: [https://nobelium.vercel.app/](https://nobelium.vercel.app/)
 Unofficial, thanks to [@Vaayne](https://github.com/craigary/nobelium/pull/157)'s work!
 
 ### Build Docker image yourself
+
 ```
 # set env
 export NOTION_PAGE_ID=xxx # your NOTION_PAGE_ID
@@ -84,6 +85,7 @@ docker run -d --name nobelium -p 3000:3000 -e NOTION_PAGE_ID=${NOTION_PAGE_ID} n
 ```
 
 ### Use default docker image
+
 ```
 # pull image
 docker pull ghcr.io/craigary/nobelium:main
@@ -96,11 +98,11 @@ docker run -d --name nobelium -p 3000:3000 -e NOTION_PAGE_ID=${NOTION_PAGE_ID} g
 
 Check out our roadmap [here](https://craigary.notion.site/Public-Roadmap-89d184e51653445ab5b347e4efac079e)
 
-- [x] Better SEO
-- [x] Dark mode
-- [x] Open Graph support
-- [x] Switch to react-notion-x
-- [x] Sitemap
+- [X] Better SEO
+- [X] Dark mode
+- [X] Open Graph support
+- [X] Switch to react-notion-x
+- [X] Sitemap
 - [ ] ...
 
 ## Technical details
